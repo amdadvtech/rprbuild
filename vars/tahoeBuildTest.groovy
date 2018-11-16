@@ -153,8 +153,8 @@ def deployImpl()
     junit 'scripts/*.xml'
 }
 
-//def call(String testOses = "win10,ubuntu", String testPlatforms = "win10:fiji,win10:ellesmere,win10:vega,ubuntu:fiji,ubuntu:ellesmere", 
-def call(String testOses = "win10,ubuntu", String testPlatforms = "win10:fiji,ubuntu:fiji", 
+def call(String testOses = "win10,ubuntu", String testPlatforms = "win10:fiji,win10:ellesmere,win10:vega,win10:hawaii,ubuntu:fiji,ubuntu:ellesmere", 
+//def call(String testOses = "win10,ubuntu", String testPlatforms = "win10:fiji,ubuntu:fiji", 
     String buildCmdLinux = './scripts/build/macos/buildTahoe.sh',
     String buildCmdWin = './scripts/build/win/buildTahoe.bat',
     
